@@ -24,6 +24,5 @@ int main()
     TrafficColor light = TrafficColor::Red;
 
     ScreenColor::White; //We can use Scope Resolution Operator /* :: */ can usable in traditional C++
-
     return 0;
 }
