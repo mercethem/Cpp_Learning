@@ -12,7 +12,6 @@
  int& r = x;  & is a declarator, not a operator
 
 
-
  addresses of k and r or x and r are same. r is a ref
  (reference is like a pointer but just easier writing than pointer)
  For instance : int x = 10; int& r = x; it's meaning, r equal to x. if x changed or r so other one changes!
