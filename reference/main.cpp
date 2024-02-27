@@ -1,6 +1,12 @@
 /**
  Reference is same to const pointer! (int* const ptr) Top level pointer equal to reference
 
+ if you want to bind a value to a reference you should control to expression type:
+ -L value reference can bind to L value expression
+ -PR value reference can bind to PR value expression
+ -X value reference can bind to X value expression
+
+
  int x = 10;
  int* p = &x; * is a declarator, not a operator
  int& r = x;  & is a declarator, not a operator
