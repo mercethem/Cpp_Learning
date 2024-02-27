@@ -1,0 +1,13 @@
+# ninja log v5
+0	310	7307388063237881	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+311	403	7307388064183626	reference.exe	1979cc34025f4ae4
+3	287	7307388118103404	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+287	363	7307388118858733	reference.exe	1979cc34025f4ae4
+3	307	7307388251354361	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+307	391	7307388252189465	reference.exe	1979cc34025f4ae4
+2	306	7307388292324770	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+306	379	7307388293039684	reference.exe	1979cc34025f4ae4
+2	306	7307388416938927	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+306	387	7307388417784459	reference.exe	1979cc34025f4ae4
+2	306	7307388453345045	CMakeFiles/reference.dir/main.cpp.obj	c38f01b7a0beb32a
+308	383	7307388454091582	reference.exe	1979cc34025f4ae4
