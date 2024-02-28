@@ -25,7 +25,10 @@
  -Reference values can not default initialize (For instance const int x) so you have to use declarator!
  -Pointer arrays are exist but Reference arrays do not exist
  */
+
+
 #include <iostream>
+
 
 void Swap_ptr(int *p1, int *p2) //Swap within pointers
 {
@@ -48,11 +51,9 @@ void foo(int &r)
 
 int main()
 {
-
     int k = 10;
     foo(k);
     std::cout << "&k = " << &k << "\n";
-
 
     printf("\n");
     int x = 20;
@@ -60,8 +61,6 @@ int main()
 
     std::cout << "&r = " << &r << "\n";
     std::cout << "&x = " << &x << "\n";
-
-
 
     return 0;
 }
