@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.27)
+project(references_and_const_semantics_and_const_correctness)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(references_and_const_semantics_and_const_correctness main.cpp)

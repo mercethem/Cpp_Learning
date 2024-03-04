@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "references_and_const_semantics_and_const_correctness",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "references_and_const_semantics_and_const_correctness::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-references_and_const_semantics_and_const_correctness-Debug-df3c11f0669fae2f784b.json",
+					"name" : "references_and_const_semantics_and_const_correctness",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Cpp_Learning/references_and_const_semantics_and_const_correctness/cmake-build-debug",
+		"source" : "E:/Cpp_Learning/references_and_const_semantics_and_const_correctness"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
