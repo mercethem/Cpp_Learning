@@ -12,7 +12,6 @@
 
  ATTENTION: Do not forget all references is top level const!!!
 
-
  */
 
 #include <iostream>
@@ -30,7 +29,6 @@ int main()
 
     int *const p = &x; //p is const pointer (top level const)  address is can not changeable
     const int *p2 = &y; //p2 is pointer to const int (low level const) value is can not changeable
-
 
     int a[5] = {1, 2, 3, 4, 5};
     int b[6] = {};
