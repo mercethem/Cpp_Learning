@@ -12,6 +12,10 @@
 
  ATTENTION: Do not forget all references is top level const!!!
 
+ const T* <====== T* (implicit type conversion)  If you use type casting operator that is a UB!
+ const T& <====== T  (implicit type conversion)  If you use type casting operator that is a UB!
+
+
  */
 
 #include <iostream>
