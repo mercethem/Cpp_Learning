@@ -1,5 +1,11 @@
 /*
 
+ - pointers are rebindable but references are unrebindable
+ - pointers are if static (use static keyword or in global scope) default initialized but references can NOT default initialize
+ - there is null pointer (nullptr) but there is NOT null reference!!!
+ - there is pointer array but there is NOT reference array
+ - there is reference to pointer but there is NOT pointer to reference
+
  mutator, setter, set function
  void func(T *ptr); equal to ===> void func(T &r)        //out parameter
 
@@ -15,6 +21,11 @@
  const T* <====== T* (implicit type conversion)  If you use type casting operator that is a UB!
  const T& <====== T  (implicit type conversion)  If you use type casting operator that is a UB!
 
+
+
+ ATTENTION:
+ void func(T &); You can call that function with only L value expression
+ void func(const T &); You can call that function with same time L value expression and PR value expression
 
  */
 
