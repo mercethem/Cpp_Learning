@@ -1,22 +1,35 @@
+
+#include <iostream>
+#include <list>
+#include <vector>
+
+struct Data {
+
+};
+
 /*
+
+ With auto to easy to programming
 
  auto keyword is different from C
  C   ===> automatic storage duration
  C++ ===> type deduction (placeholder)
 
  -Invalid default initialization
+ -auto isn't about run-time only compile-time
 
- */
+  */
 
-struct Data {
-
-};
+const char* foo(const char*, const char*);
 
 Data func();
 
-#include <iostream>
-
 int main() {
+
+    const char* (*fp)(const char*, const char*) = &foo; //EASY WAY TO PROGRAMMING, SAFE AND EFFICIENT!!!
+    auto fp2 = &foo; //equal to above
+
+
     auto val1 = 'c'; //auto equal to char
     auto val2 = 10; //auto equal to int
     auto val3 = 10u; //auto equal unsigned int
