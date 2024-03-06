@@ -8,7 +8,7 @@ int main()
 
     int *ptr = a; //array decay (array to pointer conversion)
     int *ptr2 = &a[0]; //same thing as above
-    //ATTENTION: Array decay do not use in function of sizeof, ;
+    //ATTENTION: Array decay do not use in operand of sizeof operator, operand of address operator "&";
 
     for (int i = 0; i < 5; ++i)
         std::cout << r[i] << " ";
