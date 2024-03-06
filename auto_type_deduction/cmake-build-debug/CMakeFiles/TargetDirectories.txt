@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/auto_type_deduction/cmake-build-debug/CMakeFiles/auto_type_deduction.dir
+/media/asus/Software/Cpp_Learning/auto_type_deduction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/auto_type_deduction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
