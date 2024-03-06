@@ -1,6 +1,5 @@
-#include <iostream>
+/*
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+ https://quuxplusone.github.io/blog/2019/08/02/the-tough-guide-to-cpp-acronyms/
+
+ */
