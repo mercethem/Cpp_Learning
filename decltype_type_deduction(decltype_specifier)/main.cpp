@@ -37,11 +37,35 @@ int main ()
     }
 
     {///FOR OPERAND IS NOT A NAME FORMAT
+        /*
+         What is the operand decltype is that it is!
+         What is the decltype deduction that about expression value category
+
+         a) If expression is PR value expression Data Type of decltype is itself  ===> T
+         b) If expression is L  value expression Data Type of decltype is L& ===> T&
+         c) If expression is X value expression Data Type of decltype is &&  ===> T&&
 
 
+         */
 
 
+        {
+            int x = 10;
+            decltype (x + 5) y; //Data type of y is int
+        }
 
+        {
+            int x = 10;
+            int y = 10;
+            int* ptr = &x;
+            decltype (*ptr) z = y; //Data type of z is int&
+        }
+        {
+            int x = 10;
+            int y = 20;
+            decltype (x) aa = y; //Data type of aa is int;
+            decltype ((x)) bb= y; //Data type of bb is int&;
+        }
     }
 
     return 0;
