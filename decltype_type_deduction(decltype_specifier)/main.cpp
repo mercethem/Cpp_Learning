@@ -58,13 +58,32 @@ int main ()
             int x = 10;
             int y = 10;
             int* ptr = &x;
+
             decltype (*ptr) z = y; //Data type of z is int&
         }
         {
             int x = 10;
             int y = 20;
+
             decltype (x) aa = y; //Data type of aa is int;
+            ///ATTENTION decltype((x)); ===> If there is much parenthesis in decltype, Data type will be T&!!! NOT only T
             decltype ((x)) bb= y; //Data type of bb is int&;
+        }
+
+        {
+            int x = 10;
+            int y = 20;
+
+            decltype (++x) z= y; //Data type of z is int&
+            //Because ++x is L value expression and decltype rules say for that situation L value expr. is operand
+            // of decltype as result data type of decltype is T&
+
+            ///===> ATTENTION decltype() is like sizeof() BECAUSE
+            ///==>  Unevaluated Context so if you print to x as result is 20!!! NOT 21!!!
+            ///UNEVALUATED CONTEXT is a standard explanation that do not process code!!!
+            ///As Result ===> if you call a function or do such a something like ++x compiler do not call!!!
+
+
         }
     }
 
