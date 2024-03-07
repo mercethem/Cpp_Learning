@@ -14,6 +14,24 @@ struct Data
  -Invalid default initialization
  -auto isn't about run-time only compile-time
 
+
+ ///REFERENCE COLLAPSING RULES
+     There isn't reference to reference in C++ normally but if you use to type collapsing then can be reference to reference
+     If there is & to & Compiler use Reference Collapsing Rules
+        Auto    x       Auto x
+        _______________________
+     1) T&&     &       T&      ===>    int& &&r =>   int x{}; auto&& r = x; ==> int& &&r ===> int& r = x;
+     2) T&      &       T&
+     3) T&      &&      T&
+     4) T&&     &&      T&&
+
+ PRACTICAL RULES WITH AUTO
+ 1) auto x = expr;      ===>    x never be reference
+ 2) auto &x = expr;     ===>    x always be left value reference
+
+ 3) auto &&x = expr;    ===>    x can be left value reference or right value reference with reference collapsing rules
+                                If expr. is L  Val. Expr. :  x is L  value reference
+                                If expr. is PR Val. Expr. :  x is PR value reference
   */
 
 const char *foo (const char *, const char *);
@@ -130,7 +148,28 @@ int main ()
         auto &&r = x; //
     }
 
-    //if you use && (forwarding reference) with auto and Data type of the auto is it depends on Data type of initializer
+    /**
+     if you use && (forwarding reference) with auto and Data type of the auto is it depends on Data type of initializer
+     a) If Initializer is L value expression then auto is L value reference
+     b) If Initializer is R value expression then auto is itself of Data Type (NOT REFERENCE JUST DATA TYPE LIKE int, double)
+     For instance below:
+     **/
+    {
+        int x{ };
+        auto &&r = x; //Data type of auto is int&
+        auto &&r2 = x + 5; //Data type of auto is int
+    }
+
+    ///REFERENCE COLLAPSING RULES
+    /** There isn't reference to reference in C++ normally but if you use to type collapsing then can be reference to reference
+     If there is & to & Compiler use Reference Collapsing Rules
+        Auto    x       Auto x
+        _______________________
+     1) T&&     &       T&      ===>    int& &&r =>   int x{}; auto&& r = x; ==> int& &&r ===> int& r = x;
+     2) T&      &       T&
+     3) T&      &&      T&
+     4) T&&     &&      T&&
+     **/
 
 
     return 0;
