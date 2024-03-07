@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/decltype_type_deduction(decltype_specifier)/cmake-build-debug/CMakeFiles/decltype_type_deduction_decltype_specifier_.dir
+/media/asus/Software/Cpp_Learning/decltype_type_deduction(decltype_specifier)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/decltype_type_deduction(decltype_specifier)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
