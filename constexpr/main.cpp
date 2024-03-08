@@ -6,7 +6,7 @@ int func ();
 
 int main ()
 {
-    const int x = 10;       //constant expression initialized valid in C/C++
+    const int x = 10;       //constant expression initialized valid in C++ but invalid C
     const int y = func ();   //non-constant expression initialized valid in C/C++
 
     //++x; SYNTAX ERROR because x is a constant
