@@ -13,6 +13,7 @@
 #include <iostream>
 
 
+// NOTE: All instances at below are for education
 int main ()
 {
     {///FOR OPERAND IS A NAME FORMAT
@@ -57,7 +58,7 @@ int main ()
         {
             int x = 10;
             int y = 10;
-            int* ptr = &x;
+            int *ptr = &x;
 
             decltype (*ptr) z = y; //Data type of z is int&
         }
@@ -67,14 +68,14 @@ int main ()
 
             decltype (x) aa = y; //Data type of aa is int;
             ///ATTENTION decltype((x)); ===> If there is much parenthesis in decltype, Data type will be T&!!! NOT only T
-            decltype ((x)) bb= y; //Data type of bb is int&;
+            decltype (( x )) bb = y; //Data type of bb is int&;
         }
 
         {
             int x = 10;
             int y = 20;
 
-            decltype (++x) z= y; //Data type of z is int&
+            decltype (++x) z = y; //Data type of z is int&
             //Because ++x is L value expression and decltype rules say for that situation L value expr. is operand
             // of decltype as result data type of decltype is T&
 
@@ -83,7 +84,12 @@ int main ()
             ///UNEVALUATED CONTEXT is a standard explanation that do not process code!!!
             ///As Result ===> if you call a function or do such a something like ++x compiler do not call!!!
 
+        }
 
+        {
+            int x = 10;
+            auto p = &x; //Data type of p is int*
+            auto *ptr = &x; //Data type of ptr is int*
         }
     }
 
