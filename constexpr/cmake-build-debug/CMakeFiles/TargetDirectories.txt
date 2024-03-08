@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/constexpr/cmake-build-debug/CMakeFiles/constexpr.dir
+/media/asus/Software/Cpp_Learning/constexpr/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/constexpr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
