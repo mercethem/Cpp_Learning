@@ -226,7 +226,7 @@ int main()
             void func(double);
             void func(long);
 
-            func(2ul); //unsigned long to int conversion, unsigned long to double is conversion, unsigned long to long conversion
+            //func(2ul); //unsigned long to int conversion, unsigned long to double is conversion, unsigned long to long conversion
                         //so much more conversion and result is ambiguity
         }
     }
