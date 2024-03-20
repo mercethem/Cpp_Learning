@@ -44,8 +44,8 @@
                     short ===> int
                     unsigned short ===> int
                     bool ===> int
-
                     float ===> double!!!!!!!!!!!!!!!!!!!
+
                     float ===> long double NOT PROMOTION that are conversion
                     double ===> long double NOT PROMOTION that are conversion
 
@@ -58,6 +58,8 @@
 
 
          ATTENTION : 1 > 2 > 3
+
+         if there are more conversion that is ambiguity
 
  */
 #include <iostream>
@@ -208,17 +210,18 @@ int main()
 //        func(2.3); //data type of 2.3 is double so two conversion and result is ambiguity
 
         {
-             void func(unsigned int);
-             void func(double);
+            void func(unsigned int);
+            void func(double);
 //             func(12); //ambiguity ===> int to unsigned int conversion and int to double is conversion and
-                                        //much more conversion and result is ambiguity
-               func (1.2f); //1.2f is float, float to unsigned int is conversion but float to double conversion is promotion
+            //much more conversion and result is ambiguity
+            func(1.2f); //1.2f is float, float to unsigned int is conversion but float to double conversion is promotion
         }
 
         {
             void func(int);
             void func(double);
-            func(10 > 5); //exact match because bool to int is promotion but bool to double is conversion so promotion wins
+            func(10 >
+                 5); //exact match because bool to int is promotion but bool to double is conversion so promotion wins
             func('A'); //char to int is promotion char to double is conversion so promotion wins
         }
         {
@@ -227,7 +230,13 @@ int main()
             void func(long);
 
             //func(2ul); //unsigned long to int conversion, unsigned long to double is conversion, unsigned long to long conversion
-                        //so much more conversion and result is ambiguity
+            //so much more conversion and result is ambiguity
+        }
+        {
+            void func(int, int = 20);
+            void func(int);
+
+//            func(20); // ambiguity
         }
     }
 
