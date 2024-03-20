@@ -14,6 +14,7 @@ int main()
      classes = default constructor
      */
 
+
     int y{ }; //value initialization
     /**
      Notice that it is empty inside curly braces
@@ -26,11 +27,16 @@ int main()
 
      */
 
-    int z{ 20 }; //direct list initialization
+
+    int z{ 20 }; //direct list initialization / brace initialization
+
 
     int t(10); //direct initialization
+    //int t(); That is not a initialization that is a function declaration!!!!
+    //int t() {} That is a function definition Do not care return value that is just an example!!
 
-    int k = 30;
+
+    int k = 30; //copy initialization
 
     return 0;
 }
