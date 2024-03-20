@@ -239,6 +239,4 @@ int main()
 //            func(20); // ambiguity
         }
     }
-
-
 }
