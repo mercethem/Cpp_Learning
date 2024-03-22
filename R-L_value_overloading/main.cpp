@@ -13,7 +13,7 @@ void func(int &&)
 
 
 
-void foo(const int &)
+void foo(const int &)//1
 {
     std::cout << "func(const int&)" << "\n";
 }
@@ -24,12 +24,12 @@ void foo(int &&)
 }
 
 
-void function(int &)
+void function(int &)//2
 {
     std::cout << "func(int&)" << "\n";
 }
 
-void function(const int &)
+void function(const int &)//3
 {
     std::cout << "func(const int&)" << "\n";
 }
@@ -58,7 +58,9 @@ int main()
 
     printf("\n");
 
-    function(x); //x is L value expression so first function is viable
-    function(y); //y is const L value expression so second function is viable
-    function(20); //20 is R value expression so first and second function is viable
+    function(x); //x is L value expression so first function is viable and first overloading uses
+    function(y); //y is const L value expression so second function is viable and second overloading uses
+    function(20); //20 is R value expression so second and third functions is viable third overloading uses
+
+
 }
