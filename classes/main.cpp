@@ -47,12 +47,15 @@
 
 void func(int, int); //global function - free function - stand-alone function ===> using style like as C
 
-class MyClass {
+class Data {
     int x, y; //sizeof ===> 4 + 4
     void func(int, int); //member function ===> totally specific about C++
 };
 
 int main()
 {
-    std::cout << sizeof(MyClass) << "\n";
+    std::cout << sizeof(Data) << "\n";
+
+    Data mydata;
+
 }
