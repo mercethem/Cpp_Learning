@@ -1,6 +1,17 @@
 #include <iostream>
 
+
 /**
+ Scope category in C++
+
+ namespace scope
+ block scope
+ class scope
+ function scope
+ function prototype scope
+
+/**
+
  class specifiers : data members, member functions(methods), member type-type member-nested type
 
  class MyClass{
@@ -24,12 +35,20 @@
  };
 
 
+ Access specifiers in class members
+ --------------
+ public members
+ private members
+ protected members
+
+
+
 */
 
 void func(int, int); //global function - free function - stand-alone function ===> using style like as C
 
 class MyClass {
-    int x;
+    int x, y; //sizeof ===> 4 + 4
     void func(int, int); //member function ===> totally specific about C++
 };
 
