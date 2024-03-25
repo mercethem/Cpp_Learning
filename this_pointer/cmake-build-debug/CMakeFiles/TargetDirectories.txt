@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/this_pointer/cmake-build-debug/CMakeFiles/this_pointer.dir
+/media/asus/Software/Cpp_Learning/this_pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/this_pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
