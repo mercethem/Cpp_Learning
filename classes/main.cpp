@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "classes.h"
 
 /**
  Scope category in C++
@@ -97,7 +97,7 @@
 void func(int, int); //global function - free function - stand-alone function ===> using style like as C
 
 class Data {
-    int x, y; //sizeof ===> 4 + 4
+     int x, y; //sizeof ===> 4 + 4
     void func(int, int); //member function ===> totally specific about C++
 };
 
@@ -107,5 +107,8 @@ int main()
 
     Data mydata;
     //mydata.x; //access control error!!! NOT a name-lookup error
+
+    Date myClass;
+    myClass.set(1,2,3); //===> There are not 3 parameter there are 4 parameter!!! Because address of myClass is here!!!
 
 }
