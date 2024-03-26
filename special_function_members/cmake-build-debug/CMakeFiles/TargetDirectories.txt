@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/special_function_members/cmake-build-debug/CMakeFiles/special_function_members.dir
+/media/asus/Software/Cpp_Learning/special_function_members/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/special_function_members/cmake-build-debug/CMakeFiles/rebuild_cache.dir
