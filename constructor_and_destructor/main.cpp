@@ -43,9 +43,24 @@ int main()
 
      */
 
-    std::cout << "main started\n";
 
-    std::cout << "main finished\n";
+    std::cout << "\nmain started\n";
+
+    std::cout << "&g ===> " << &myClass;
+
+    std::cout << "\nmain finished\n";
+
+    /**
+     ATTENTION : Object constructors of classes call by sort but destructors calls like a steak LIFO(Last in first out)
+     Objects storage duration start first scope start and finished when scopes finished!
+
+     objects call when they in namespace scope starts before main
+     objects call when they in main scope starts before main
+     objects call when they in local scope starts when it calls
+     static objects call when they call in local or main scope when it calls
+
+     */
+
 
 
     return 0;
