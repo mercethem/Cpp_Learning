@@ -17,10 +17,12 @@
  ATTENTION : DO NOT CALL DESTRUCTOR WITH HIM NAME THAT SPECIFIC SITUATION FOR!!!
   */
 
-class MyClass{
+class MyClass {
 public:
     MyClass();
-    ~MyClass();
-    //~MyClass(int);Syntax error because destructors can not be overload!
+
+    ~MyClass(); //DO NOT WRITE SUCH AS THAT CODE!
+    //~MyClass(int);Syntax error because destructors can not be overload! //DO NOT WRITE SUCH AS THAT CODE!
+
 private:
 };
