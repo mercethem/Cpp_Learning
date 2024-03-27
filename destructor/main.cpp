@@ -13,6 +13,8 @@
             };
  5) Can be a function with public, private and protected access specifiers
  6) Can NOT be do overload!!!
+
+ ATTENTION : DO NOT CALL DESTRUCTOR WITH HIM NAME THAT SPECIFIC SITUATION FOR!!!
   */
 
 class MyClass{
