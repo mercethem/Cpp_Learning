@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/loop_without_loop/cmake-build-debug/CMakeFiles/loop_without_loop.dir
+/media/asus/Software/Cpp_Learning/loop_without_loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/loop_without_loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir

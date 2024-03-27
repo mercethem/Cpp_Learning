@@ -1,0 +1,5 @@
+# ninja log v5
+0	185	1711534531416038600	CMakeFiles/loop_without_loop.dir/main.cpp.o	ad10c1f3c331bb21
+185	223	1711534531452038600	loop_without_loop	c98f881d4e1067e9
+0	175	1711534549156039200	CMakeFiles/loop_without_loop.dir/main.cpp.o	ad10c1f3c331bb21
+175	212	1711534549192039200	loop_without_loop	c98f881d4e1067e9
