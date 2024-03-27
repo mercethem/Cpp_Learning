@@ -1,0 +1,27 @@
+# ninja log v5
+0	172	1711530101724118900	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+172	206	1711530101756118900	static_objects_storage_duration	43983962b7d72f97
+1	173	1711530111820119300	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+173	208	1711530111856119300	static_objects_storage_duration	43983962b7d72f97
+0	185	1711530147888120400	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+185	220	1711530147924120400	static_objects_storage_duration	43983962b7d72f97
+1	175	1711530156968120600	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+175	208	1711530157000120600	static_objects_storage_duration	43983962b7d72f97
+0	171	1711530190752121700	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+171	205	1711530190788121700	static_objects_storage_duration	43983962b7d72f97
+1	174	1711530325188125800	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+175	208	1711530325224125800	static_objects_storage_duration	43983962b7d72f97
+0	185	1711530690236136900	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+185	221	1711530690272136900	static_objects_storage_duration	43983962b7d72f97
+0	169	1711530926644144100	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+169	201	1711530926676144100	static_objects_storage_duration	43983962b7d72f97
+1	178	1711530934188144300	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+178	212	1711530934224144400	static_objects_storage_duration	43983962b7d72f97
+1	171	1711530942948144600	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+171	205	1711530942980144600	static_objects_storage_duration	43983962b7d72f97
+0	172	1711530948180144800	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+172	208	1711530948212144800	static_objects_storage_duration	43983962b7d72f97
+0	169	1711530951820144900	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+170	204	1711530951852144900	static_objects_storage_duration	43983962b7d72f97
+0	174	1711531023904147100	CMakeFiles/static_objects_storage_duration.dir/main.cpp.o	b785bb4f06919259
+174	208	1711531023940147100	static_objects_storage_duration	43983962b7d72f97

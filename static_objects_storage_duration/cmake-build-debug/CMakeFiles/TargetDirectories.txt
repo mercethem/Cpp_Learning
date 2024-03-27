@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/static_objects_storage_duration/cmake-build-debug/CMakeFiles/static_objects_storage_duration.dir
+/media/asus/Software/Cpp_Learning/static_objects_storage_duration/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/static_objects_storage_duration/cmake-build-debug/CMakeFiles/rebuild_cache.dir
