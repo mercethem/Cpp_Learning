@@ -1,0 +1,7 @@
+# ninja log v5
+0	196	1712035771412016900	CMakeFiles/default_member_initializer.dir/main.cpp.o	f846df6c31855a71
+196	230	1712035771444016900	default_member_initializer	4e65b5c50608f01c
+1	176	1712035815288018200	CMakeFiles/default_member_initializer.dir/main.cpp.o	f846df6c31855a71
+176	210	1712035815324018200	default_member_initializer	4e65b5c50608f01c
+1	176	1712035908800021100	CMakeFiles/default_member_initializer.dir/main.cpp.o	f846df6c31855a71
+176	208	1712035908832021100	default_member_initializer	4e65b5c50608f01c
