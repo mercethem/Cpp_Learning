@@ -1,0 +1,8 @@
+# ninja log v5
+0	189	1712219892421545300	CMakeFiles/copy_constructor.dir/main.cpp.o	284113232196f39d
+190	226	1712219892461545800	copy_constructor	a54fb3a9cc1472cc
+0	364	1712221214747309300	CMakeFiles/copy_constructor.dir/main.cpp.o	284113232196f39d
+0	369	1712221232103683000	CMakeFiles/copy_constructor.dir/main.cpp.o	284113232196f39d
+369	446	1712221232179684600	copy_constructor	a54fb3a9cc1472cc
+0	416	1712221253296138100	CMakeFiles/copy_constructor.dir/main.cpp.o	284113232196f39d
+416	492	1712221253372139700	copy_constructor	a54fb3a9cc1472cc
