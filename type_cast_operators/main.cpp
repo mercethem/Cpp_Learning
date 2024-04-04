@@ -24,7 +24,7 @@
     static_cast                     ===> int to double, int to enum or enum to int,
     reinterpret_cast                ===> casting with addresses, for instance int* to double*, void* to T*
     const_cast                      ===> const T* to T* or T* to const T*
-    static_cast/reinterpret_cast    ===> void* to T*
+                static_cast/reinterpret_cast    ===> void* to T*
     
 
 
