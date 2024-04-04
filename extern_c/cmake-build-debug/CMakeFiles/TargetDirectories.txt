@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/extern_c/cmake-build-debug/CMakeFiles/extern_c.dir
+/media/asus/Software/Cpp_Learning/extern_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/extern_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
