@@ -5,3 +5,8 @@
   3) public
   4) data members initialized with default values
  */
+
+class MyClass{
+public:
+    MyClass() = default; //default constructor ===> compiler write constructor's code (public or private doesn't matter)
+};
