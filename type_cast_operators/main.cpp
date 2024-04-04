@@ -16,4 +16,29 @@
     - reinterpret_cast (the most risky one)
     - dynamic_cast
 
+    static cast
+    -----------
+    static_cast<target type> (operand) ===> static_cast<int>(dval)
+    const_cast<int *>(ptr)
+
+    static_cast                     ===> int to double, int to enum or enum to int,
+    reinterpret_cast                ===> casting with addresses, for instance int* to double*, void* to T*
+    const_cast                      ===> const T* to T* or T* to const T*
+    static_cast/reinterpret_cast    ===> void* to T*
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  */
