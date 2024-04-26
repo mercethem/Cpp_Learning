@@ -10,8 +10,8 @@
             If there is not a specific situation you should not write yourself to copy constructor
             So let's compiler does it
 
-            If we write the copy constructor then any copy object liked object main object!
-            If you do not want to link the object with copy constructor you have to write our own copy constructor
+            If we write the copy constructor then any copy object liked object main object! (shallow copy)
+            If you do not want to link the object with copy constructor you have to write our own copy constructor (deep copy)
 
  ATTENTION: If we don't want to copy any object we have to DELETE our copy constructor
 
