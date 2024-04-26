@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/copy_assignment_function/cmake-build-debug/CMakeFiles/copy_assignment_function.dir
+/media/asus/Software/Cpp_Learning/copy_assignment_function/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/copy_assignment_function/cmake-build-debug/CMakeFiles/rebuild_cache.dir
