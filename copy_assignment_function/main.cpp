@@ -11,27 +11,37 @@
  - inline
 
  class MyClass;
- MyClass& operator=(const MyClass &other);
+ MyClass& operator=(const MyClass &other); //That is not only one way to write copy assignment but that is traditional way
  */
 
 #include <iostream>
+#include <cstring>
+
 
 class MyClass {
 public:
-    MyClass(const MyClass &other) : ax {other.ax}, bx {other.bx};
-    MyClass& operator=(const MyClass &other)
+    MyClass(const char * p); //constructor
+    ~MyClass(); //destructor
+    MyClass(const MyClass& other) : ax{ other.ax }, bx{ other.bx }; //copy constructor (if we create and new memory allocated
+                                                        // then that is deep copy
+    MyClass& operator=(const MyClass& other) //copy assignment function (compiler write like that)
     {
-        ax = other.ax;
-        bx = other.bx;
+        free(mp);
+        mlen = other.mlen;
+        mp = static_cast<char *>(malloc(mlen + 1));
+        if (!mp) {
+            exit(EXIT_FAILURE);
+        }
+        strcpy(mp,other.mp);
 
         return *this;
     }
+
 private:
-    int ax;
-    double bx;
-
-
+    char * mp;
+    int mlen;
 };
+
 
 int main()
 {
