@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/move_constructor/cmake-build-debug/CMakeFiles/move_constructor.dir
+/media/asus/Software/Cpp_Learning/move_constructor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/move_constructor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

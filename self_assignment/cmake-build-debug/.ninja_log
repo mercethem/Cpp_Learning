@@ -1,0 +1,21 @@
+# ninja log v5
+2	310	1714375819716005300	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+310	356	1714375819760005300	self_assignment	66afaaf2c637f660
+0	174	1714375833720005800	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+174	208	1714375833752005800	self_assignment	66afaaf2c637f660
+1	176	1714376014116011300	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+176	210	1714376014148011300	self_assignment	66afaaf2c637f660
+1	171	1714376020748011500	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+171	204	1714376020780011500	self_assignment	66afaaf2c637f660
+1	182	1714376147208015300	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+182	216	1714376147240015300	self_assignment	66afaaf2c637f660
+1	172	1714376238116018100	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+172	205	1714376238148018100	self_assignment	66afaaf2c637f660
+1	172	1714376245544018300	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+172	205	1714376245576018300	self_assignment	66afaaf2c637f660
+0	170	1714376261376018800	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+170	204	1714376261412018800	self_assignment	66afaaf2c637f660
+1	173	1714376272124019100	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+173	207	1714376272160019100	self_assignment	66afaaf2c637f660
+1	178	1714376322968020700	CMakeFiles/self_assignment.dir/main.cpp.o	e65ecd3f54b6c24f
+178	213	1714376323000020700	self_assignment	66afaaf2c637f660
