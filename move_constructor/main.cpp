@@ -7,6 +7,7 @@ public:
     ///copy constructor can take L value and R value expression because of const class& but move constructor just take
     ///R value expression so move constructor blocs unnecessary copy when just copy constructor created without move constructor
     ///because of function overloading rules!!!
+
 };
 int main()
 {

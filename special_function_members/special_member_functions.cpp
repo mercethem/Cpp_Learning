@@ -7,9 +7,9 @@
 #include <cstdlib>
 #include <iostream>
 
-Sentence::Sentence(const char * p) : mlen{ strlen(p) } //constructor
+Sentence::Sentence(const char* p) : mlen{ strlen(p) } //constructor
 {
-    mp = static_cast<char *>(malloc(mlen + 1)); //+1 for \0
+    mp = static_cast<char*>(malloc(mlen + 1)); //+1 for \0
     if (!mp) {
         std::cout << "out of memory\n";
         exit(EXIT_FAILURE);
@@ -19,7 +19,7 @@ Sentence::Sentence(const char * p) : mlen{ strlen(p) } //constructor
 
 Sentence::Sentence(const Sentence& other) : mlen(other.mlen) //copy constructor
 {
-    mp = static_cast<char *>(malloc(mlen + 1)); //+1 for \0
+    mp = static_cast<char*>(malloc(mlen + 1)); //+1 for \0
     if (!mp) {
         std::cout << "out of memory\n";
         exit(EXIT_FAILURE);
@@ -27,10 +27,21 @@ Sentence::Sentence(const Sentence& other) : mlen(other.mlen) //copy constructor
     strcpy(mp, other.mp);
 }
 
-Sentence::Sentence(Sentence&& other) : mp(other.mp), mlen(other.mlen)
+Sentence::Sentence(Sentence&& other) : mp(other.mp), mlen(other.mlen) //move constructor
 {
     other.mp = nullptr;
+}
 
+Sentence& Sentence::operator=(Sentence&& other) //move assignment
+{
+    if (this == &other)
+        return *this;
+
+    free(mp);
+    mp = other.mp;
+    mlen = other.mlen;
+
+    return *this;
 
 }
 
@@ -43,7 +54,7 @@ Sentence& Sentence::operator=(const Sentence& other) //copy assignment
     }
     free(mp);
     mlen = other.mlen;
-    mp = static_cast<char *>(malloc(mlen + 1)); //+1 for \0
+    mp = static_cast<char*>(malloc(mlen + 1)); //+1 for \0
     if (!mp) {
         std::cout << "out of memory\n";
         exit(EXIT_FAILURE);

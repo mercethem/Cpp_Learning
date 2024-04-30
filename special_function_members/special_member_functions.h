@@ -6,6 +6,7 @@
 
 class Sentence {
 public:
+    Sentence(); //default constructor
     Sentence(const char * p); //constructor
     Sentence(const Sentence&); //copy constructor
     Sentence(Sentence&&); //move constructor
