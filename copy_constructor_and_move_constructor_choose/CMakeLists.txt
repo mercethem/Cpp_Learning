@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(copy_constructor_and_move_constructor_choose)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(copy_constructor_and_move_constructor_choose main.cpp)

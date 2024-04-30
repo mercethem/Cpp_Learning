@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "copy_constructor_and_move_constructor_choose",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_constructor_and_move_constructor_choose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_constructor_and_move_constructor_choose-Debug-cbc6ba55ab42f869aefc.json",
+					"name" : "copy_constructor_and_move_constructor_choose",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/asus/Software/Cpp_Learning/copy_constructor_and_move_constructor_choose/cmake-build-debug",
+		"source" : "/media/asus/Software/Cpp_Learning/copy_constructor_and_move_constructor_choose"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
