@@ -1,0 +1,9 @@
+# ninja log v5
+0	208	1714472422284049000	CMakeFiles/move_function.dir/main.cpp.o	62a0adf8ad0b0be0
+209	244	1714472422320049000	move_function	9cb0d5ca169f8163
+1	178	1714472448736049800	CMakeFiles/move_function.dir/main.cpp.o	62a0adf8ad0b0be0
+178	215	1714472448772049800	move_function	9cb0d5ca169f8163
+1	172	1714472590244054100	CMakeFiles/move_function.dir/main.cpp.o	62a0adf8ad0b0be0
+172	208	1714472590280054100	move_function	9cb0d5ca169f8163
+1	177	1714472983656066100	CMakeFiles/move_function.dir/main.cpp.o	62a0adf8ad0b0be0
+177	209	1714472983688066100	move_function	9cb0d5ca169f8163
