@@ -27,7 +27,7 @@ Sentence::Sentence(const Sentence& other) : mlen(other.mlen) //copy constructor
     strcpy(mp, other.mp);
 }
 
-Sentence::Sentence(Sentence&& other) : mp(other.mp), mlen(other.mlen) //move constructor
+Sentence::Sentence(Sentence&& other) : mp(std::move(other.mp)), mlen(std::move(other.mlen)) //move constructor
 {
     other.mp = nullptr;
 }
@@ -38,8 +38,8 @@ Sentence& Sentence::operator=(Sentence&& other) //move assignment
         return *this;
 
     free(mp);
-    mp = other.mp;
-    mlen = other.mlen;
+    mp = std::move(other.mp);
+    mlen = std::move(other.mlen);
 
     return *this;
 
