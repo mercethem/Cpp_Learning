@@ -43,6 +43,14 @@ Myclass::Myclass(const Myclass&)
     std::cout << "copy constructor()\n";
 }
 
+void func1(Myclass);
+
+void func2(const Myclass&);
+
+void func3(Myclass&&);
+
+void func4(Myclass&);
+
 int main()
 {
     std::cout << "main started" << "\n";
@@ -54,6 +62,22 @@ int main()
     Myclass{ 10 }; // Myclass{ 10 } ==> temporary object
 
     std::cout << "main continuing" << "\n";
+
+
+    func1(Myclass()); //call by value
+    func2(Myclass()); //PR value expression inject to const L value reference
+    func3(Myclass()); //PR value expression inject to const PR value reference
+//    func4(Myclass()); //PR value expression inject to L value reference with temporary object SYNTAX ERROR
+
+/**
+ Generally, Temporary object send to argument inside to functions ==> Use-Case
+ */
+
+
+///life extension
+    Myclass{};
+
+
 
     return 0;
 }
