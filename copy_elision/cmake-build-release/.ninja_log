@@ -1,0 +1,5 @@
+# ninja log v5
+0	469	1715576931172091900	CMakeFiles/copy_elision.dir/main.cpp.o	3744bbaff0a44863
+469	534	1715576931236091900	copy_elision	7a572c1cd19221ec
+1	371	1715576967488093000	CMakeFiles/copy_elision.dir/main.cpp.o	3744bbaff0a44863
+371	434	1715576967552093000	copy_elision	7a572c1cd19221ec
