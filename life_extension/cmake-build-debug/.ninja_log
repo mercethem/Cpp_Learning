@@ -1,0 +1,22 @@
+# ninja log v5
+1	369	1715575500656048200	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+2	363	1715575532924049200	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+363	445	1715575533004049200	life_extension	f40ca7d29b405f31
+1	367	1715575569364050300	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+367	452	1715575569444050300	life_extension	f40ca7d29b405f31
+2	374	1715575590064051000	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+374	449	1715575590140051000	life_extension	f40ca7d29b405f31
+2	362	1715575608524051500	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+362	437	1715575608596051500	life_extension	f40ca7d29b405f31
+2	407	1715575694696054200	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+407	472	1715575694760054200	life_extension	f40ca7d29b405f31
+3	392	1715575703436054400	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+392	463	1715575703504054400	life_extension	f40ca7d29b405f31
+1	391	1715575725056055100	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+391	474	1715575725136055100	life_extension	f40ca7d29b405f31
+2	449	1715575802572057400	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+449	530	1715575802652057400	life_extension	f40ca7d29b405f31
+1	384	1715575890216060100	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+384	468	1715575890300060100	life_extension	f40ca7d29b405f31
+1	374	1715575898800060400	CMakeFiles/life_extension.dir/main.cpp.o	fdd4c2af9cf8b15b
+374	443	1715575898868060400	life_extension	f40ca7d29b405f31
