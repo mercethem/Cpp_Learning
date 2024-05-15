@@ -22,6 +22,6 @@ int main()
     Myclass mx;
     int ival = 10;
 //    mx = ival; //Syntax error because of explicit constructor
-    mx = static_cast<Myclass>(ival); //conversion int to Myclass within control
+//    mx = static_cast<Myclass>(ival); //conversion int to Myclass within control
     return 0;
 }
