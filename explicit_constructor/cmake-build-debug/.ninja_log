@@ -1,3 +1,6 @@
 # ninja log v5
 0	178	1715666259260074300	CMakeFiles/explicit_constructor.dir/main.cpp.o	e9ba515c218c2c3
 0	172	1715666382980078100	CMakeFiles/explicit_constructor.dir/main.cpp.o	e9ba515c218c2c3
+2	275	1715738173254781500	CMakeFiles/explicit_constructor.dir/main.cpp.o	e9ba515c218c2c3
+1	180	1715738185418659100	CMakeFiles/explicit_constructor.dir/main.cpp.o	e9ba515c218c2c3
+180	215	1715738185454658800	explicit_constructor	7ccef21bd6942865
