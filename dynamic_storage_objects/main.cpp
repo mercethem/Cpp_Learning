@@ -24,13 +24,19 @@
  void  operator delete(void* ); //delete operator calls destructor
 
  operator new and operator of new are different each other
+ (operator new calls first operator new(), second the call to constructor)
+
  operator delete and operator of delete are different each other
+ (operator delete calls first destructor, second the call to operator delete() )
 
  operator delete and operator new are functions
  operator of delete and operator of new are operators
 
  resource leak = if you have used operator of new and haven't used operator of deleted!!!!
                  Because there is not garbage collector in C++
+
+ ATTENTION : We can not overload to operator of new or operator of delete BUT we can overload operator new and operator delete!!!
+
 
  */
 
@@ -43,6 +49,9 @@ public:
 
 int main()
 {
+
+
+
     Myclass* p = new Myclass;
     int* x = new int;
 
@@ -51,6 +60,9 @@ int main()
     auto p3 = new Myclass;
     auto p4(new Myclass);
     auto p5{ new Myclass };
+
+    Myclass &r = *new Myclass(); // Ugly code -_-
+    delete &r;                   // Because of &r!!!
 
     p1->func();
     p2->func();
