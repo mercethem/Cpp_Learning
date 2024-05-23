@@ -13,11 +13,6 @@ public:
 
     Singleton& operator=(const Singleton&) = delete; //copy assignment deleted
 
-    ~Singleton()
-    {
-        delete mp;
-    }
-
     static Singleton& get_instance()
     {
         if (!mp) {
