@@ -1,0 +1,3 @@
+/media/asus/Software/Cpp_Learning/singleton_pattern/cmake-build-debug/CMakeFiles/singleton_pattern.dir
+/media/asus/Software/Cpp_Learning/singleton_pattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/asus/Software/Cpp_Learning/singleton_pattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
