@@ -71,4 +71,9 @@ int main()
     }
 
     ofs << mx << " " << my << " " << mz << "\n";
+
+
+    M_int ms{12}, mp{3}, mc{10};
+    std::cout << (ms > mp) << "\n"; //boolalpha is a manipulator for extracter out: 1 or 0
+    std::cout << std::boolalpha << (ms > mp) << "\n";   //out: true or false
 }
