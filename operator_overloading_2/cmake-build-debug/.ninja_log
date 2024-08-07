@@ -1,0 +1,9 @@
+# ninja log v6
+0	179	1723009369004042000	CMakeFiles/operator_overloading_2.dir/main.cpp.o	d4db940f844c1d17
+1	179	1723009369004042000	CMakeFiles/operator_overloading_2.dir/m_int.cpp.o	9cf2b9c3a1d8b1c2
+179	214	1723009369180042000	operator_overloading_2	125635fa8bf84ee4
+1	176	1723010277952069700	CMakeFiles/operator_overloading_2.dir/m_int.cpp.o	9cf2b9c3a1d8b1c2
+1	185	1723010277952069700	CMakeFiles/operator_overloading_2.dir/main.cpp.o	d4db940f844c1d17
+185	218	1723010278136069700	operator_overloading_2	125635fa8bf84ee4
+1	168	1723010299704070400	CMakeFiles/operator_overloading_2.dir/main.cpp.o	d4db940f844c1d17
+168	202	1723010299872070400	operator_overloading_2	125635fa8bf84ee4
