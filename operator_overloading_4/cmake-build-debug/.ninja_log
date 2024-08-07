@@ -1,0 +1,24 @@
+# ninja log v6
+0	361	1723013567188170100	CMakeFiles/operator_overloading_4.dir/m_int.cpp.o	32892a535a7060bd
+0	362	1723013567188170100	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+362	425	1723013567548170100	operator_overloading_4	b69268dc811943eb
+1	355	1723013570120170200	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+355	415	1723013570476170200	operator_overloading_4	b69268dc811943eb
+1	339	1723013590736170800	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+339	399	1723013591076170800	operator_overloading_4	b69268dc811943eb
+2	337	1723013608044171300	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+337	397	1723013608380171300	operator_overloading_4	b69268dc811943eb
+1	358	1723013670460173200	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+358	433	1723013670820173200	operator_overloading_4	b69268dc811943eb
+1	337	1723014286556192000	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+337	404	1723014286892192000	operator_overloading_4	b69268dc811943eb
+0	363	1723014298436192400	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+363	438	1723014298800192400	operator_overloading_4	b69268dc811943eb
+1	347	1723014410096195800	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+347	406	1723014410440195800	operator_overloading_4	b69268dc811943eb
+1	176	1723018619431470600	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+176	207	1723018619607470600	operator_overloading_4	b69268dc811943eb
+1	171	1723018796447101400	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+171	203	1723018796619104800	operator_overloading_4	b69268dc811943eb
+0	171	1723019235909686700	CMakeFiles/operator_overloading_4.dir/main.cpp.o	9af39b0abd22dd13
+171	204	1723019236081689200	operator_overloading_4	b69268dc811943eb
